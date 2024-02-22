@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    position: relative;
+}
+.container {
+    position: absolute;
+    top: 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 40vh;
+    margin: 5rem;
+}
+.title {
+    position: absolute;
+    top: 1rem;
+    margin: 5rem;
+    color: rgb(14, 14, 204);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.main-content {
+    width: 50rem;
+    
+}
+.image {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+footer{
+    position: absolute;
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 81.3rem;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    background-color: rgba(184, 180, 171, .3);
+}
+p {
+    padding-left: 2rem;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    background-color: rgba(184, 180, 171, .3);
+}
+.services{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.choose{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.copy-right{
+    padding-top: 2rem;
+}
