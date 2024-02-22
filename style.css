@@ -73,7 +73,7 @@ p {
     color: rgb(192, 40, 40);
 }
 
-@media (min-width: 380px) {
+@media (min-width: 430px) {
 
     .container {
         position: absolute;
@@ -81,7 +81,23 @@ p {
 
     }
     .footer-content{
-        margin-top: 70rem;
-        margin-left: -45rem;
+        top: 1rem;
+        margin-left: -52rem;
+    }
+    .copy-right{
+        font-size: small;
+        font-weight: 500;
+    }
+}
+@media (min-width: 768px) {
+
+    .container {
+        position: absolute;
+        top: 12rem;
+
+    }
+    .footer-content{
+        top: 1rem;
+        margin-left: -35rem;
     }
 }
