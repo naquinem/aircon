@@ -104,7 +104,28 @@ p {
 
     }
     .footer-content{
-        top: 1rem;
-        margin-left: -35rem;
+        position: absolute;
+        top: -4.5rem;
+        margin-left: -30rem;
+    }
+    .content{
+        top: 2rem;
+        margin-left: 20rem;
+        background-color: #666;
+        color: white;
+    }
+}
+@media (min-width: 1119px) {
+
+    .container {
+        position: absolute;
+        top: 10rem;
+
+    }
+    .content{
+        top: 3rem;
+        margin-left: 40rem;
+        background-color: #666;
+        color: white;
     }
 }
