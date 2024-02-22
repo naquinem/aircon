@@ -28,7 +28,6 @@ main{
 }
 .main-content {
     width: 50rem;
-    
 }
 .image {
     position: relative;
@@ -69,4 +68,20 @@ p {
 }
 .copy-right{
     padding-top: 2rem;
+}
+.number{
+    color: rgb(192, 40, 40);
+}
+
+@media (min-width: 380px) {
+
+    .container {
+        position: absolute;
+        top: 12rem;
+
+    }
+    .footer-content{
+        margin-top: 70rem;
+        margin-left: -45rem;
+    }
 }
