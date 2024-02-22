@@ -77,16 +77,23 @@ p {
 
     .container {
         position: absolute;
-        top: 12rem;
+        top: 10rem;
 
     }
     .footer-content{
-        top: 1rem;
+        top: 6rem;
         margin-left: -52rem;
+    }
+    .title{
+        margin-top: 1rem;
     }
     .copy-right{
         font-size: small;
         font-weight: 500;
+    }
+    .container{
+        margin-top: 0;
+        width: 25rem;
     }
 }
 @media (min-width: 768px) {
