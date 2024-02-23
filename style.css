@@ -66,7 +66,7 @@ h5{
     .title-paragraph{
         margin-top: 10px;
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 500;
         text-align: justify;
         width: 19rem;
         color: rgb(6, 40, 61);
@@ -97,10 +97,10 @@ h5{
         margin: 1rem;
     }
     .contact-us{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 20rem;
+        width: 50rem;
+    }
+    .contact-paragraph{
+        background-color: rgba(223, 246, 255, .3);
     }
     .footer{
         position: absolute;
@@ -122,6 +122,37 @@ h5{
     }
     
 }
+@media (min-width: 400px) {
+    .title{
+        width: 22rem;
+    }
+    .title-paragraph{
+        padding-left: 1rem;
+        width: 21rem;
+    }
+    .main-content{
+        width: 22rem;
+    }
+    .contact{
+        top: 55rem;
+    }
+    .contact-us{
+        width: 22rem;
+        padding-top: 1rem;
+    }
+    .split{
+        width: 24rem;
+        height: 25rem;
+    }
+    .cassette{
+        width: 24rem;
+    }
+    .footer{
+        top: 74.2rem;
+        width: 22rem;
+        padding-left: 2rem;
+    }
+}
 
 @media (min-width: 479px) {
     .title{
@@ -134,10 +165,8 @@ h5{
         width: 26rem;
     }
     .services-title{
-        position: absolute;
         top: 19rem;
         margin: 1rem;
-        font-size: small;
     }
     .cassette{
         width: 29.1rem;
