@@ -10,7 +10,7 @@ h1{
     color: rgb(4, 96, 235);
     background-color: rgba(223, 246, 255, .5);
     width: fit-content;
-    padding: 4px;
+    padding: 2px;
 }
 h5{
     color: rgb(4, 96, 235);
@@ -18,9 +18,7 @@ h5{
     padding: 4px;
     width: fit-content;
 }
-p{
-    font-size: 17px;
-}
+
 .container{
     position: relative;
 }
@@ -34,7 +32,7 @@ p{
 .split{
     width: 21.07rem;
     height: 20rem;
-    opacity: .6;
+    opacity: .9;
 }
 .cassette{
     width: 21.07rem;
@@ -46,29 +44,12 @@ p{
 }
 .services-title{
     position: absolute;
-    top: 16rem;
+    top: 17rem;
     margin: 1rem;
     font-size: small;
 }
-.main-content{
-    position: absolute;
-    top: 19rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1rem;
-}
-.contact{
-    position: absolute;
-    top: 53rem;
-    margin: 1rem;
-}
-.contact-us{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-}
+
+
 .footer{
     color: gray;
     background-color: rgba(0, 0, 0, .9);
@@ -93,19 +74,37 @@ p{
     }
     p{
         font-size: 14px;
+        font-weight: 500;
+        font-family: sans-serif;
         padding: 8px;
     }
     .cleaning, .repair, .installation, .reprocess {
         padding-left: 5px;
-        padding-top: 15px;
+        padding-top: 7px;
         background-color: rgba(223, 246, 255, .3);
     }
     .main-content{
+        position: absolute;
+        top: 20rem;
+        padding: 1rem;
         width: 19rem;
+        display: grid;
+        grid-template-columns: ifr;
+    }
+    .contact{
+        position: absolute;
+        top: 54rem;
+        margin: 1rem;
+    }
+    .contact-us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
     }
     .footer{
         position: absolute;
-        top: 68rem;
+        top: 73.3rem;
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -122,4 +121,186 @@ p{
         padding-left: 2.5rem;
     }
     
+}
+
+@media (min-width: 479px) {
+    .title{
+        top: 2rem;
+        margin: 1rem;
+        width: 27rem;
+    }
+    .title-paragraph{
+        margin-top: 25px;
+        width: 26rem;
+    }
+    .services-title{
+        position: absolute;
+        top: 19rem;
+        margin: 1rem;
+        font-size: small;
+    }
+    .cassette{
+        width: 29.1rem;
+    }
+    .main-content{
+        position: absolute;
+        top: 23rem;
+        padding: 1rem;
+        width: 27rem;
+        display: grid;
+        grid-template-columns: ifr;
+    }
+    p{
+        font-size: 16px;
+    }
+    .contact{
+        top: 58rem;
+    }
+    .contact-us{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 27rem;
+    }
+    .split{
+        width: 29.1rem;
+        height: 25rem;
+    }
+    .contact-paragraph{
+        background-color: rgba(223, 246, 255, .3);
+    }
+    .footer{
+        position: absolute;
+        top: 83.2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 25.1rem;
+        padding-left: 4rem;
+    }
+}
+@media (min-width: 767px) {
+    .title{
+        width: 45rem;
+    }
+    .title-paragraph{
+        margin-top: 25px;
+        width: 40rem;
+        color: rgb(53, 68, 78);
+    }
+    .services-title{
+        top: 15rem;
+    }
+    
+    .main-content{
+        top: 18rem;
+        width: 45rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    p{
+        font-size: 16px;
+    }
+    .contact{
+        top: 42rem;
+    }
+    .contact-us{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45rem;
+    }
+    .split{
+        position: absolute;
+        top: 40.3rem;
+        left: 23rem;
+        width: 24rem;
+        height: 24rem;
+    }
+    .cassette{
+        position: absolute;
+        top: 40.3rem;
+        width: 23rem;
+        height: 24rem;
+    }
+    .contact-paragraph{
+        background-color: rgba(223, 246, 255, .3);
+    }
+    .footer{
+        position: absolute;
+        top: 64.3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 33.5rem;
+        padding-left: 13.5rem;
+    }
+}
+@media (min-width: 992px) {
+    .title{
+        width: 45rem;
+    }
+    .title-paragraph{
+        width: 55rem;
+    }
+    .services-title{
+        top: 13rem;
+    }
+    
+    .main-content{
+        top: 18rem;
+        width: 58rem;
+        height: 20rem;
+    }
+    .contact-us{
+        width: 58rem;
+    }
+    .split{
+        left: 30rem;
+        width: 31.1rem;
+        height: 24rem;
+    }
+    .cassette{
+        position: absolute;
+        top: 40.3rem;
+        width: 31.1rem;
+        height: 24rem;
+    }
+    .footer{
+        width: 41.1rem;
+        padding-left: 20rem;
+    }
+}
+@media (min-width: 1280px) {
+    .title{
+        width: 65rem;
+    }
+    .title-paragraph{
+        width: 74rem;
+        margin-left: 3rem;
+    }
+    .main-content{
+        top: 15rem;
+        width: 75rem;
+        margin: 3rem;
+    }
+    .contact-us{
+        width: 58rem;
+        margin: 3rem;
+    }
+    .split{
+        left: 41.4rem;
+        width: 40rem;
+        height: 24rem;
+    }
+    .cassette{
+        position: absolute;
+        top: 40.3rem;
+        width: 41.4rem;
+        height: 24rem;
+    }
+    .footer{
+        width: 51.35rem;
+        padding-left: 30rem;
+    }
 }
