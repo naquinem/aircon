@@ -30,12 +30,12 @@ h5{
     height: 100vh;
 }
 .split{
-    width: 21rem;
+    width: 21.6rem;
     height: 20rem;
     opacity: .9;
 }
 .cassette{
-    width: 21rem;
+    width: 21.6rem;
 }
 .title{
     position: absolute;
@@ -53,11 +53,11 @@ h5{
 .footer{
     color: gray;
     background-color: rgba(0, 0, 0, .9);
-    width: 21rem;
+    width: 21.6rem;
     font-family: sans-serif;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 360px) {
     
     .title{
         margin: 1rem;
@@ -104,21 +104,21 @@ h5{
     }
     .footer{
         position: absolute;
-        top: 73.3rem;
+        top: 73.5rem;
         display: grid;
         grid-template-columns: 1fr;
     }
     .footer-title{
         font-size: medium;
-        padding-left: 8.5rem;
+        padding-left: 9rem;
     }
     .footer-contact{
         font-size: medium;
-        padding-left: 3rem;
+        padding-left: 3.5rem;
     }
     .footer-copyright{
         font-size: x-small;
-        padding-left: 2.5rem;
+        padding-left: 3rem;
     }
     
 }
