@@ -30,12 +30,12 @@ h5{
     height: 100vh;
 }
 .split{
-    width: 21.07rem;
+    width: 21rem;
     height: 20rem;
     opacity: .9;
 }
 .cassette{
-    width: 21.07rem;
+    width: 21rem;
 }
 .title{
     position: absolute;
@@ -53,7 +53,7 @@ h5{
 .footer{
     color: gray;
     background-color: rgba(0, 0, 0, .9);
-    width: 21.1rem;
+    width: 21rem;
     font-family: sans-serif;
 }
 
@@ -61,14 +61,14 @@ h5{
     
     .title{
         margin: 1rem;
-        width: 20rem;
+        width: 19.4rem;
     }
     .title-paragraph{
         margin-top: 10px;
         font-size: 15px;
         font-weight: 500;
         text-align: justify;
-        width: 19rem;
+        width: 18rem;
         color: rgb(6, 40, 61);
         background-color: rgba(223, 246, 255, .3);
     }
@@ -97,7 +97,7 @@ h5{
         margin: 1rem;
     }
     .contact-us{
-        width: 50rem;
+        width: 19rem;
     }
     .contact-paragraph{
         background-color: rgba(223, 246, 255, .3);
